@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background-color: #f5f5f5;
+  background-color: #e0e8f1 !important;
   color: #4e4e4e;
 }
 
@@ -139,13 +139,14 @@ a:hover {
 /*--/ Title s /--*/
 .title-s {
   font-weight: 600;
-  color: #1e1e1e;
+  color: #ffffff;
   font-size: 1.1rem;
 }
 
 /*--/ Title A /--*/
 .title-box {
   margin-bottom: 4rem;
+
 }
 
 .title-a {
@@ -175,6 +176,7 @@ a:hover {
 .title-left {
   font-size: 2rem;
   position: relative;
+  color: #ffffff;
 }
 
 .title-left:before {
@@ -738,6 +740,8 @@ a:hover {
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
+  background: #191a1a;
+  color: #ffffff;
 }
 
 .about-mf .about-img {
@@ -756,7 +760,7 @@ a:hover {
 }
 
 .skill-mf span {
-  color: #4e4e4e;
+  color: #ffffff;
 }
 
 .skill-mf .progress {
@@ -1387,3 +1391,90 @@ footer .credits {
 footer .credits a {
   color: #fff;
 }
+
+.centrer {
+  text-align: center;
+  color: #293133;
+  background-color: grey;
+}
+
+.backglobal {
+  background-color: #0b0b0b!important;
+}
+
+. services-mf pt-5 route {
+  background: #211a1a;
+}
+
+html.style {
+  background-color: #0b0b0b;
+}
+
+. rounded-circle {
+  text-align: center!important;
+}
+
+.description_card{
+  margin-top: 5%;
+  color: #7b7b7b;
+}
+
+
+.titre_card_qualite{
+  margin-top: 1%;
+  color: #19B5FE;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.cards_qualites{
+  margin-top: 3vh;
+  background-color: white;
+  color: black;
+  border-radius: 0.5em;
+  box-shadow: 0 0 12px rgba(0,0,0 ,0.5);
+  padding: 2%;
+  margin-bottom: 5vh;
+}
+
+.titre_card_options{
+  margin-top: 1%;
+  color: #19B5FE;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.cards_options{
+  margin-top: 3vh;
+  background-color: white;
+  color: black;
+  border-radius: 0.5em;
+  box-shadow: 0 0 12px rgba(0,0,0 ,0.5);
+  padding: 2%;
+  margin-bottom: 5vh;
+}
+
+.titre_section{
+  margin-top: 2vh;
+  font-size: 40px;
+  margin-bottom: 2vh;
+  color: black;
+  font-weight: lighter;
+}
+
+.titre_vagues{
+  color: #c9c9c9;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 2.5em;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+}
+
+.fond_vagues {
+  background: linear-gradient(to right, #19b5fe, #4d05e8);
+  min-width: 100%;
+}
+
