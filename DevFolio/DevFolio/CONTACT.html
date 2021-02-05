@@ -52,7 +52,7 @@
                     <a class="nav-link js-scroll" href="index.html">Accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll active" href="BTS SIO.html">BTS SIO</a>
+                    <a class="nav-link js-scroll" href="BTS SIO.html">BTS SIO</a>
                 </li>
 
                 <li class="nav-item dropdown ">
@@ -61,7 +61,7 @@
                         PPE
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a href="PPE_1.html"class="dropdown-item" >PPE 1</a>
+                        <a href="PPE_1.html"class="dropdown-item" >PPE_1</a>
                         <a href="PPE_2.html" class="dropdown-item" >PPE 2</a>
                     </div>
                 </li>
@@ -84,7 +84,7 @@
                     <a class="nav-link js-scroll" href="Stage.html">STAGE</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll" href="CONTACT.html">CONTACT</a>
+                    <a class="nav-link js-scroll active" href="CONTACT.html">CONTACT</a>
                 </li>
             </ul>
         </div>
@@ -98,8 +98,8 @@
         <div class="table-cell">
             <div class="container">
                 <!--<p class="display-6 color-d">Hello, world!</p>-->
-                <h1 class="intro-title mb-4">BTS SIO</h1>
-                <p class="intro-subtitle"><span class="text-slider-items">BTS SIO SLAM, BTS SIO SISR</span><strong class="text-slider"></strong></p>
+                <h1 class="intro-title mb-4">Contact</h1>
+                <p class="intro-subtitle"><span class="text-slider-items">Une question ?, Vous voulez me contacter ?</span><strong class="text-slider"></strong></p>
                 <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
             </div>
         </div>
@@ -109,74 +109,95 @@
 <main id="main">
 
 </main><!-- End #main -->
-<!-- SECTION PRESENTATION -->
 
-<div id="presentation">
+<!-- ======= Contact Section ======= -->
+<section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
+    <div class="overlay-mf"></div>
     <div class="container">
         <div class="row">
-            <div class="col-12 text-center">
-                <h2 class="display-4 titre_section">Présentation globale</h2>
-            </div>
-
-            <div class="col-12">
-                <div class="card card_presentation_bts">
-                    <div class="card-body">
-
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 texte_presentation">
-                            <p class="card-text">Le BTS Services Informatiques aux Organisations est un diplôme recconu par l'état de niveau BAC+2.
-                            </p>
-                            <p class="card-text">Il remplace depuis Septembre 2011, l'ancien BTS IG (Informatique de gestion).</p>
-
-                            <p class="card-text">En effet, cette nouvelle formule réponds aux attentes de la profession en matière de qualification.</p>
-
-                            <p class="card-text">Le programme a évolué en fonction de la place et du rôle des TIC (Technologies de l'Information et
-                                de la Communication)</p>
-
-                            <p class="card-text">Et propose deux spécialités bien distinctes : Le BTS SIO Option SISR et le BTS SIO Option SLAM.
+            <div class="col-sm-12">
+                <div class="contact-mf">
+                    <div id="contact" class="box-shadow-full">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="title-box-2">
+                                    <h5 class="title-left">
+                                        Send Message Us
+                                    </h5>
+                                </div>
+                                <div>
+                                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                                        <div class="row">
+                                            <div class="col-md-12 mb-3">
+                                                <div class="form-group">
+                                                    <input type="text" name="nom" class="form-control" id="name" placeholder="Votre nom" data-rule="minlen:4" data-msg="veuillez écrire au moins 4 caractère" />
+                                                    <div class="validate"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 mb-3">
+                                                <div class="form-group">
+                                                    <input type="email" class="form-control" name="mail" id="email" placeholder="Votre Mail" data-rule="email" data-msg="veuillez écrire un mail valide" />
+                                                    <div class="validate"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 mb-3">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" name="Sujet" id="subject" placeholder="Sujet" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                                                    <div class="validate"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Veuillez écrire un message" placeholder="Message"></textarea>
+                                                    <div class="validate"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 text-center mb-3">
+                                                <div class="loading">Loading</div>
+                                                <div class="error-message"></div>
+                                                <div class="sent-message">Your message has been sent. Thank you!</div>
+                                            </div>
+                                            <div class="col-md-12 text-center">
+                                                <button type="Envoyer" class="button button-a button-big button-rouded">Envoyer</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="title-box-2 pt-4 pt-md-0">
+                                    <h5 class="title-left">
+                                        Get in Touch
+                                    </h5>
+                                </div>
+                                <div class="more-info">
+                                    <p class="lead">
+                                        Techniquement, vous n'êtes pas tenu de nous communiquer vos données personnelles sur ce site. Cependant ce formulaire vous demandera votre nom, mail, sujet et message si vous souhaitez me contacter.
+                                    </p>
+                                    <br></br<br>
+                                    <br></br<br>
+                                    <ul class="list-ico">
+                                        <li><span class="ion-ios-location"></span> Kremlin-Bicetre</li>
+                                        <li><span class="ion-ios-telephone"></span> 07 88 82 32 31</li>
+                                        <li><span class="ion-email"></span> K.KEBICHE@lprs.fr</li>
+                                    </ul>
+                                </div>
+                                <div class="socials">
+                                    <ul>
+                                        <li><a href=""><span class="ico-circle"><i class="ion-social-facebook"></i></span></a></li>
+                                        <li><a href=""><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
+                                        <li><a href=""><span class="ico-circle"><i class="ion-social-twitter"></i></span></a></li>
+                                        <li><a href=""><span class="ico-circle"><i class="ion-social-pinterest"></i></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-
-<!-- FIN SECTION PRESENTATION -->
-
-<!-- SECTION OPTIONS BTS -->
-
-<div id="sectOptions" >
-    <div class="container">
-        <div class="row">
-            <div class="col-12 text-center">
-                <h2 class="display-4 titre_section titre_vagues">Les Options du BTS SIO</h2>
-            </div>
-
-            <div class="col-md-6">
-                <div class="cards_options text-center ">
-                    <h4 class="titre_card_options">Option A : SISR</h4>
-
-                    <h4 class="titre_card_options">Solutions d'Infrastructures Systèmes et Réseaux</h4>
-
-                    <p class="description_card">La spécialisation SISR du BTS SIO permet d’apprendre un métier qui consiste à installer, configurer et gérer les équipements et les réseaux informatiques. Cela signifie intervenir sur la conception, la mise en place, le déploiement et la maintenance de programmes destinés à la gestion au sein d’une organisation.</p>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="cards_qualites text-center">
-
-                    <h4 class="titre_card_qualite">Option B : SLAM</h4>
-                    <h4 class="titre_card_qualite">Solutions Logicielles et Applications Métiers</h4>
-
-                    <p class="description_card">La spécialisation SLAM du BTS SIO est elle plus orientée Développement. Elle permet d'apprendre à réaliser des logiciels, sites webs, applications mobiles, mais aussi de rédiger des documentations techniques liées à celles-ci. De plus, elle permet d'apprendre à former des utilisateurs pour gérer la maintenance des applications.</p>
-                </div>
-            </div>
-
-
-        </div>
-    </div>
-</div>
-<!-- FIN SECTION OPTIONS BTS -->
-
+</section><!-- End Contact Section -->
 <!-- ======= Footer ======= -->
 <footer>
     <div class="container">
@@ -219,4 +240,3 @@
 </body>
 
 </html>
-
